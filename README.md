@@ -1,13 +1,25 @@
 # ephys
 ----
 
-A compilation of analysis Rx for electrophysiology data.
+What is this git repo?
+
+A compilation of analysis Rx for electrophysiology data. (or, it will be, soon)
 
 
-## TBD
-----
+## The Haps
 
-* Standardize data annotation file 
+Prerequisite to building-out this ephys analysis toolbox code is defining a standard format for data import. Each import will consist of two files:
+
+* ephys data
+* annotation info
+
+Preferably, both of these should be the same file type (e.g. csv, xls, xlsx). In fact, if using an Excel format, both the ephys data and the annotation info can be two different sheets in the same workbook. I think this is preferable as it ensures those files stay together. If we go this route, its important to standardize the sheet names. I propose that, in all lowercase, these sheet names are
+
+* info
+* ephys
+
+So the first xls sheet is the annotation info, while the second xls sheet is the ephys data. There should be no other sheets in these workbooks.
+
 
 Below is an example of the dataset exported from Igor. The first column indicates sweep time (ms). Subsequent columns are samples of electrical current (pA) for each sweep. All sweeps are the same duration (number of rows).
 
@@ -24,5 +36,8 @@ The annotations file shall describe the experimental parameters in-play during e
 </a>
 
 
+
+
+## TBD
 * Build-out code to import ephys dataset and descriptions files
 * Build-out code to auto-organize data based on descriptions
