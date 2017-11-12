@@ -1,0 +1,5 @@
+clear all;
+clc;
+A = randi(10,10)
+c = A(:,1)
+[M, I] = min(c(3:))
