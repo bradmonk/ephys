@@ -27,6 +27,8 @@ Below is an example of the dataset exported from Igor. The first column indicate
 <img src="http://bradleymonk.com/git/readmedia/ephys/data.png" width="480" border="10" />
 </a>
 
+&nbsp;
+&nbsp;
 
 The annotations file shall describe the experimental parameters in-play during each sweep. Since there are 100s of sweeps during the course of an experiment, and since experimental manipulations are performed in a block-design, the annotation file need not be the same size/shape of the data file. Instead pairs of columns are used to indicate the start and stop columns in the datafile that belong to a given parameter block. 
 
