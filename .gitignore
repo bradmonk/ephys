@@ -9,15 +9,4 @@
 *~*
 
 # Explicitly ignore some folders
-testdata
-testdata/*
-gcdata
-gcdata/*
-archive
-genomix_sparse
-genomix_sparse/*
-genomix_data/*
-genomix_data
-genomix/*
-genomix
-JunmiData/*
+foo/*
