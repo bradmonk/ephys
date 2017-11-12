@@ -13,7 +13,7 @@ Prerequisite to building-out this ephys analysis toolbox code is defining a stan
 * ephys data
 * annotation info
 
-Preferably, both of these should be the same file type (e.g. csv, xls, xlsx). In fact, if using an Excel format, both the ephys data and the annotation info can be two different sheets in the same workbook. I think this is preferable as it ensures those files stay together. If we go this route, its important to standardize the sheet names. I propose that, in all lowercase, these sheet names are
+Preferably, both of these should be the same file type (e.g. csv, xls, xlsx). In fact, if using an Excel format, both the ephys data and the annotation info can be two different sheets in the same Excel workbook. I think this is preferable as it ensures those files stay together. If we go this route, it is important to standardize the sheet names. I propose that, in all lowercase, these sheet names are
 
 * info
 * ephys
@@ -24,7 +24,7 @@ So the first xls sheet is the annotation info, while the second xls sheet is the
 Below is an example of the dataset exported from Igor. The first column indicates sweep time (ms). Subsequent columns are samples of electrical current (pA) for each sweep. All sweeps are the same duration (number of rows).
 
 <a href="http://bradleymonk.com/git/readmedia/ephys/data.png" target="_blank">
-<img src="http://bradleymonk.com/git/readmedia/ephys/data.png" width="300" border="10" />
+<img src="http://bradleymonk.com/git/readmedia/ephys/data.png" width="500" border="10" />
 </a>
 
 
@@ -32,7 +32,7 @@ The annotations file shall describe the experimental parameters in-play during e
 
 
 <a href="http://bradleymonk.com/git/readmedia/ephys/anno.png" target="_blank">
-<img src="http://bradleymonk.com/git/readmedia/ephys/anno.png" width="300" border="10" />
+<img src="http://bradleymonk.com/git/readmedia/ephys/anno.png" width="800" border="10" />
 </a>
 
 
