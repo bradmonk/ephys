@@ -24,7 +24,7 @@ So the first xls sheet is the annotation info, while the second xls sheet is the
 Below is an example of the dataset exported from Igor. The first column indicates sweep time (ms). Subsequent columns are samples of electrical current (pA) for each sweep. All sweeps are the same duration (number of rows).
 
 <a href="http://bradleymonk.com/git/readmedia/ephys/data.png" target="_blank">
-<img src="http://bradleymonk.com/git/readmedia/ephys/data.png" width="500" border="10" />
+<img src="http://bradleymonk.com/git/readmedia/ephys/data.png" width="480" border="10" />
 </a>
 
 
@@ -32,7 +32,7 @@ The annotations file shall describe the experimental parameters in-play during e
 
 
 <a href="http://bradleymonk.com/git/readmedia/ephys/anno.png" target="_blank">
-<img src="http://bradleymonk.com/git/readmedia/ephys/anno.png" width="800" border="10" />
+<img src="http://bradleymonk.com/git/readmedia/ephys/anno.png" width="820" border="10" />
 </a>
 
 
