@@ -1,6 +1,6 @@
 %% Junmi_Ephys.m
 clc; close all; clear;
-% system('sudo purge')
+
 thisfile = 'Junmi_Ephys.m';
 thisfilepath = fileparts(which(thisfile));
 cd(thisfilepath); homedir = pwd;
