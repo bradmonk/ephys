@@ -21,14 +21,14 @@ end
 
 %% IMPORT EPHYS DATASET
 
-% datasets = '/Users/bradleymonk/Documents/MATLAB/GIT/ephys/JunmiData';
-% datafiles = dir(datasets);
-% filenum = 3;
-% A = importdata([datafiles(filenum).folder filesep datafiles(filenum).name],'\t');
-% A0 = A;
-% 
-% TIME = A(:,1);
-% A(:,1) = [];
+datasets = '/Users/bradleymonk/Documents/MATLAB/GIT/ephys/JunmiData';
+datafiles = dir(datasets);
+filenum = 3;
+A = importdata([datafiles(filenum).folder filesep datafiles(filenum).name],'\t');
+A0 = A;
+
+TIME = A(:,1);
+A(:,1) = [];
 
 %% PLOT DATASET
 
