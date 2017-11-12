@@ -1,10 +1,10 @@
 # ephys
-----
 
 What is this git repo?
 
 A compilation of analysis Rx for electrophysiology data. (or, it will be, soon)
 
+----
 
 ## The Haps
 
